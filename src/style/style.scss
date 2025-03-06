@@ -8,6 +8,17 @@
     font-size: 34px;
     font-weight: 600;
 }
+&__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    &.open {
+        display: block;
+    }
+}
 }
 .button {
     border: none;
